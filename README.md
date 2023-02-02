@@ -23,3 +23,6 @@
 
 ### Modelo lógico
 <img src="https://github.com/alonso-estevam/desafio_1/blob/main/public/desafio1_modelo_lógico.png" />
+
+### Modelo físico
+<img src="https://github.com/alonso-estevam/desafio_1/blob/main/public/desafio1_modelo_fisico.png" />
