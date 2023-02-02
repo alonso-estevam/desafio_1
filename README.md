@@ -1,5 +1,4 @@
-Mentoria Digytal Space - Desafio 1
-=======
+# Mentoria Digytal Space - Desafio 1
 
 ### Requisitos
 * criar uma tabela de produtos com os campos `código`, `nome` e `valor unitário` e uma tabela para as categorias dos produtos; 
@@ -14,3 +13,11 @@ Mentoria Digytal Space - Desafio 1
 
 ### Ferramentas
 * PostgreSQL v. 13
+
+## Resolução
+
+### Modelo conceitual
+<img src="https://github.com/alonso-estevam/desafio_1/blob/main/public/desafio1_modelo_conceitual.png" />
+
+### Modelo lógico
+<img src="https://github.com/alonso-estevam/desafio_1/blob/main/public/desafio1_modelo_lógico.png" />
