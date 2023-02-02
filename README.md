@@ -12,6 +12,8 @@
 * Comandos DQL
 
 ### Ferramentas
+* <a href="https://www.brmodeloweb.com/lang/pt-br/index.html">BR Modelo</a>
+* <a href="https://dbdiagram.io">dbdiagram</a>
 * PostgreSQL v. 13
 
 ## Resolução
