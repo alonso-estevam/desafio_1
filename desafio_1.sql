@@ -29,3 +29,7 @@ VALUES	('Livro "Head First: Java"', 74.89, 5),
 	('Bloco Adesivo Smart Notes', 21.42, 4),
 	('Papel Sulfite, Chamex, A4, 75g', 19.80, 4),
 	('Caneta Esferográfica Colorida', 4.50, 4);
+
+UPDATE tb_produtos SET preco_unitario = preco_unitario + (preco_unitario * 0.1) WHERE categoria <> 4;
+
+UPDATE tb_produtos SET preco_unitario = preco_unitario + (preco_unitario * 0.15) WHERE categoria = 4;
