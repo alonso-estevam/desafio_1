@@ -40,3 +40,13 @@ De fato, quando temos um relacionamento 1 : N, a chave estrangeira deve ser colo
 
 ### Modelo físico
 <img src="https://github.com/alonso-estevam/desafio_1/blob/main/public/desafio1_modelo_fisico.png" />
+
+O terceiro passo foi a modelagem física, já tendo escolhido o PostgreSQL como SGBD. Nesse ponto usei o db diagram, e fui pensando em quais tipos de dados eu usaria para armazenar as informações solicitadas.
+
+Para o campo `codigo`, que será a chave primária, a opção que pareceu melhor foi o `serial`, um "tipo numérico" do Postgres que, segundo a documentação, é "uma conveniência de notação para criar colunas de identificador exclusivo (semelhante à propriedade AUTO_INCREMENT suportada por alguns outros bancos de dados)".
+
+Para o atributo `nome`, que armazenará texto, foi escolhido o `varchar` com limite de 100 caracteres. 
+
+O `valor_unitario`, que vai guardar o preço dos produtos, deve suportar números decimais, então usei o tipo `numeric` com precisão de 6 números e escala de 2 casas decimais após a vírgula (ou seja, pode guardar até 9999,99 - os produtos da nossa simulação não serão mais caros que esse valor). Vale lembrar que a documentação informa que o tipo `numeric` é "especialmente recomendado para armazenar valores monetários e outras quantidades onde a exatidão é necessária".
+
+Por fim, temos o campo `categoria`, que vai armazenar um número inteiro correspondente ao id na tabela das categorias.
