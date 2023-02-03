@@ -1,3 +1,5 @@
+CREATE DATABASE desafio_1;
+
 CREATE TABLE tb_categorias (
   id serial PRIMARY KEY,
   nome varchar(80) NOT NULL
@@ -38,3 +40,4 @@ UPDATE tb_produtos SET valor_unitario = valor_unitario + (valor_unitario * 0.1) 
 
 
 UPDATE tb_produtos SET valor_unitario = valor_unitario + (valor_unitario * 0.15) WHERE categoria = 4;
+ 
