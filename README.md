@@ -32,5 +32,11 @@ Os atributos estão representados pelas bolinhas com os títulos acima. A bolinh
 ### Modelo lógico
 <img src="https://github.com/alonso-estevam/desafio_1/blob/main/public/desafio1_modelo_lógico.png" />
 
+O segundo passo foi converter o modelo conceitual para o modelo lógico. Nesse processo a ferramenta BR Modelo foi bem útil, pois ela disponibiliza uma função própria para isso. 
+
+Pela imagem conseguimos visualizar que as entidades foram transformadas em "tabelas", com as indicações PK para *primary key* e FK para *foreign key*. A única mudança mais substancial foi que a tabela `produto` agora tem um novo atributo que faz referência à chave primária da tabela `categoria`. Por isso, ele é a chave estrangeira. 
+
+De fato, quando temos um relacionamento 1 : N, a chave estrangeira deve ser colocada na lado que tem as múltiplas ocorrências, ou seja, no lado N - que no caso é a tabela `produto`.
+
 ### Modelo físico
 <img src="https://github.com/alonso-estevam/desafio_1/blob/main/public/desafio1_modelo_fisico.png" />
