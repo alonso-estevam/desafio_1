@@ -117,3 +117,6 @@ UPDATE tb_produtos SET valor_unitario = valor_unitario + (valor_unitario * 0.1) 
 ```
 UPDATE tb_produtos SET valor_unitario = valor_unitario + (valor_unitario * 0.15) WHERE categoria = 4;
 ```
+
+## Referências:
+<a href="https://www.postgresql.org/docs/13/index.html" >Documentação do PostgreSQL v. 13</a>
