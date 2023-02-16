@@ -93,8 +93,8 @@ VALUES	('outros'),
 5. inserir dados na tabela dos produtos
 ```
 INSERT INTO tb_produtos (nome, valor_unitario, categoria)
-VALUES	('Livro "Head First: Java"', 74.89, 5),
-	('Livro "Projeto de Banco de Dados"', 59.49, 5),
+VALUES	('"Head First: Java"', 74.89, 5),
+	('"Projeto de Banco de Dados"', 59.49, 5),
 	('Ventilador Arno', 189.90, 2),
 	('Fogão Esmaltec', 559.00, 2),
 	('Liquidificador Turbo', 75.99, 2),
